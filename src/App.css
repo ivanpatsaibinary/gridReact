@@ -1,0 +1,7 @@
+.layout {
+	border: 1px solid black;
+}
+
+.layout > div {
+	border: 1px solid blue;
+}
