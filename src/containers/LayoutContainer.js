@@ -23,7 +23,7 @@ class LayoutContainer extends Component {
 	render () {
 		const { boxesDisplayed, handleClick, layoutConfig, layouts } = this.props;
 		return (
-			<div className='widgets-container'>
+			<div className='layout-container'>
 				<Button
 					label='Add Box'
 					primary={ true }
