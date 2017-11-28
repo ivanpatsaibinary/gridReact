@@ -1,7 +1,10 @@
-.layout {
-	border: 1px solid black;
+.widgets-container {
+	padding: 20px
 }
 
-.layout > div {
-	border: 1px solid blue;
+.layout {
+	border: 1px solid black;
+	margin-top: 15px;
 }
+
+
