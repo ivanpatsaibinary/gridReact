@@ -1,13 +1,11 @@
 import React from 'react';
 import './box.css';
 
-export default ({ text }) => {
+export default ({ text, title }) => {
   return (
-    <div className="box">
-      <h3>{text}</h3>
-      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto asperiores
-           aspernatur cupiditate doloribus est ex,
-      </div>
+    <div className='box'>
+      <h3>{ title }</h3>
+      <div>{ text }</div>
     </div>
   );
 };
